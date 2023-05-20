@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaDesk.API", "src\MangaDesk.API\MangaDesk.API.csproj", "{25E01AF6-521A-4892-BBC7-33508E85A49C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaDesk.Web", "src\MangaDesk.Web\MangaDesk.Web.csproj", "{B5EEC605-7ED3-4632-986C-1A2EEAAB85DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaDesk.Core", "src\MangaDesk.Core\MangaDesk.Core.csproj", "{B05C777B-C36C-4916-8CAD-C86946B0C143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaDesk.Data", "src\MangaDesk.Data\MangaDesk.Data.csproj", "{5001FA2E-3DF1-4D68-96BF-AE46672FCE7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B5EEC605-7ED3-4632-986C-1A2EEAAB85DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5EEC605-7ED3-4632-986C-1A2EEAAB85DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5EEC605-7ED3-4632-986C-1A2EEAAB85DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05C777B-C36C-4916-8CAD-C86946B0C143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05C777B-C36C-4916-8CAD-C86946B0C143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05C777B-C36C-4916-8CAD-C86946B0C143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05C777B-C36C-4916-8CAD-C86946B0C143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5001FA2E-3DF1-4D68-96BF-AE46672FCE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5001FA2E-3DF1-4D68-96BF-AE46672FCE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5001FA2E-3DF1-4D68-96BF-AE46672FCE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5001FA2E-3DF1-4D68-96BF-AE46672FCE7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
